@@ -13,13 +13,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Checkout
+        uses: actions/checkout@v4.0.0
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.8.1
         with:
-          node-version: '18'
+          node-version: '20'
 
       - name: Install newman & HTML extra reporter
         run: |
@@ -38,7 +38,7 @@ jobs:
       #     path: results.xml
       - name: Checkout gh-pages branch
         if: always()
-        uses: actions/checkout@v2
+        uses: actions/checkout@v4.0.0
         with:
           ref: gh-pages
           path: gh-pages
@@ -58,12 +58,12 @@ jobs:
           target_branch: gh-pages
           build_dir: newman
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       
       - name: Deploy report to Github Pages newman directory
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
-          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PERSONAL_TOKEN: ${{secrets.GITHUB_TOKEN}}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: newman
