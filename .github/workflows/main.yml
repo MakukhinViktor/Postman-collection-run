@@ -28,7 +28,7 @@ jobs:
       - name: Run Tests on Dev or Stage
         if: always()
         run: |
-          newman run src/Makukhin_Viktor.postman_collection.json -e src/Test.postman_environment.json -r cli,htmlextra,junit
+          newman run src/Makukhin_Viktor.postman_collection.json -e src/Test.postman_environment.json -n 3 --delay-request 100 -r cli,htmlextra,junit
 
 
       # - name: Archive results
