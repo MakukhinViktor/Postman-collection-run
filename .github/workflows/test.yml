@@ -1,0 +1,69 @@
+name: Newman Postman Collection Run
+
+on:
+  schedule:
+    - cron: '0 3 * * *'
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  newman_run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4.0.0
+
+      - name: Setup Node.js environment
+        uses: actions/setup-node@v3.8.1
+        with:
+          node-version: '20'
+
+      - name: Install newman & HTML extra reporter
+        run: |
+          npm install -g newman
+          npm install -g newman-reporter-htmlextra
+      - name: Run Tests on Dev or Stage
+        if: always()
+        run: |
+          newman run src/Makukhin_Viktor.postman_collection.json -e src/Test.postman_environment.json -n 3 --delay-request 100 -r cli,htmlextra,junit
+
+
+      # - name: Archive results
+      #   uses: actions/upload-artifact@v2
+      #   with:
+      #     name: newman-results
+      #     path: results.xml
+      - name: Checkout gh-pages branch
+        if: always()
+        uses: actions/checkout@v4.0.0
+        with:
+          ref: gh-pages
+          path: gh-pages
+
+      - name: Rename report
+        if: always()
+        run: |
+          ls
+          pwd
+          cd newman
+          mv *.html index.html
+      
+      - name: Host Report on GH pages
+        if: always()
+        uses: crazy-max/ghaction-github-pages@v3
+        with:
+          target_branch: gh-pages
+          build_dir: newman
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Deploy report to Github Pages newman directory
+        if: always()
+        uses: peaceiris/actions-gh-pages@v2
+        env:
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PUBLISH_BRANCH: gh-pages
+          PUBLISH_DIR: newman
