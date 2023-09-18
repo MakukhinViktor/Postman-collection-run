@@ -37,6 +37,7 @@ jobs:
       #     name: newman-results
       #     path: results.xml
       - name: Checkout gh-pages branch
+        if: always()
         uses: actions/checkout@v2
         with:
           ref: gh-pages
@@ -57,12 +58,12 @@ jobs:
           target_branch: gh-pages
           build_dir: newman
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       
       - name: Deploy report to Github Pages newman directory
         if: always()
         uses: peaceiris/actions-gh-pages@v2
         env:
-          PERSONAL_TOKEN: ${{ secrets.GH_TOKEN }}
+          PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PUBLISH_BRANCH: gh-pages
           PUBLISH_DIR: newman
