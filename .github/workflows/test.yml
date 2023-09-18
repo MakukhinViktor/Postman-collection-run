@@ -1,4 +1,4 @@
-name: Newman Postman Collection Run
+name: Newman Collection Run
 
 on:
   schedule:
