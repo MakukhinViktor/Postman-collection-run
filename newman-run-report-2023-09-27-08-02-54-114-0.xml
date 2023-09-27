@@ -1,0 +1,1993 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Makukhin_Viktor" tests="459" time="64.988">
+  <testsuite name="Lecture-1 / User Management / Generate default admin token" id="26d84be3-56cc-4941-86a6-559bd6f5492a" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.409">
+    <testcase name="Status code is 200" time="0.337" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.337" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.337" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / User Management / Register admin" id="bf1f31a0-814f-4ced-8699-b51ba7a2d7fc" timestamp="2023-09-27T08:00:32.402Z" tests="11" failures="30" errors="0" time="0.055">
+    <testcase name="Status code is 200" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'id'" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (errors) } to have property 'id'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Check that response body contains 'id'.]]>
+        <![CDATA[Error message: expected { Object (errors) } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (errors) } to have property 'id'
+   at Object.eval sandbox-script.js:2:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'username'" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (errors) } to have property 'username'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Check that response body contains 'username'.]]>
+        <![CDATA[Error message: expected { Object (errors) } to have property 'username'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (errors) } to have property 'username'
+   at Object.eval sandbox-script.js:3:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'email'" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (errors) } to have property 'email'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Check that response body contains 'email'.]]>
+        <![CDATA[Error message: expected { Object (errors) } to have property 'email'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (errors) } to have property 'email'
+   at Object.eval sandbox-script.js:4:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'firstName'" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (errors) } to have property 'firstName'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Check that response body contains 'firstName'.]]>
+        <![CDATA[Error message: expected { Object (errors) } to have property 'firstName'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (errors) } to have property 'firstName'
+   at Object.eval sandbox-script.js:5:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'lastName'" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (errors) } to have property 'lastName'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Check that response body contains 'lastName'.]]>
+        <![CDATA[Error message: expected { Object (errors) } to have property 'lastName'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (errors) } to have property 'lastName'
+   at Object.eval sandbox-script.js:6:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'role'" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (errors) } to have property 'role'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Check that response body contains 'role'.]]>
+        <![CDATA[Error message: expected { Object (errors) } to have property 'role'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (errors) } to have property 'role'
+   at Object.eval sandbox-script.js:7:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (errors) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { Object (errors) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (errors) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (errors) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { Object (errors) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (errors) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:9:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal 'viktor.admin'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register admin.]]>
+        <![CDATA[Test description: Response body values matches the request body info entered.]]>
+        <![CDATA[Error message: expected undefined to deeply equal 'viktor.admin'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal 'viktor.admin'
+   at Object.eval sandbox-script.js:10:2).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.050" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / User Management / Generate admin token" id="8f11b66b-d948-42bd-9da5-387cd07a2d4f" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.336">
+    <testcase name="Status code is 200" time="0.295" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.295" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.295" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / User Management / Register teacher" id="5b835819-b427-4841-9c28-63a0a699e6d2" timestamp="2023-09-27T08:00:32.402Z" tests="11" failures="6" errors="0" time="0.350">
+    <testcase name="Status code is 200" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'username'" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'email'" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'firstName'" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'lastName'" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'role'" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.371" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13209, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 13209, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13209, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.371" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13209, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 13209, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13209, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:9:4).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.371" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / User Management / Generate teacher token" id="c46fd4bb-b388-4a3c-9f19-49dd36787462" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.358">
+    <testcase name="Status code is 200" time="0.370" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.370" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.370" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / User Management / Register student" id="f5e75c3b-1f57-4427-a0af-1251bb81b63b" timestamp="2023-09-27T08:00:32.402Z" tests="11" failures="9" errors="0" time="0.355">
+    <testcase name="Status code is 200" time="0.361" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.361" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'username'" time="0.361" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'email'" time="0.361" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'firstName'" time="0.361" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'lastName'" time="0.361" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'role'" time="0.361" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.361" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13210, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register student.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 13210, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13210, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.361" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13210, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register student.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 13210, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13210, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:9:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.361" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected 1 to deeply equal 3">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / User Management / Register student.]]>
+        <![CDATA[Test description: Response body values matches the request body info entered.]]>
+        <![CDATA[Error message: expected 1 to deeply equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 1 to deeply equal 3
+   at Object.eval sandbox-script.js:10:6).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.361" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / User Management / Generate student token" id="a2c3407e-eff3-430e-b046-7a4af4dff4ec" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.358">
+    <testcase name="Status code is 200" time="0.366" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.366" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.366" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin" id="04538754-fec5-45f5-a025-949b3250b16c" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.069">
+    <testcase name="Status code is 200" time="0.065" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.065" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.065" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.065" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9036, title: 'ea possimus ut' } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9036, title: 'ea possimus ut' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9036, title: 'ea possimus ut' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.065" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9036, title: 'ea possimus ut' } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9036, title: 'ea possimus ut' } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9036, title: 'ea possimus ut' } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:8).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.065" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.065" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (spaces at the beginning/end)" id="dcdb8ff2-c627-431a-8f9f-b366eff68506" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.066">
+    <testcase name="Status code is 200" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.063" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9037, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin (spaces at the beginning/end).]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9037, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9037, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.063" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9037, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin (spaces at the beginning/end).]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9037, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9037, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:9).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.063" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (2chars)" id="11956695-2730-4d2b-83a2-afd148839c63" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.047">
+    <testcase name="Response status code is 400" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (3chars)" id="a182fea9-148c-47ae-adfa-3e4ae3bec5e1" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.065">
+    <testcase name="Status code is 200" time="0.064" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.064" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.064" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.064" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9038, title: 'tuj' } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin (3chars).]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9038, title: 'tuj' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9038, title: 'tuj' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.064" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9038, title: 'tuj' } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin (3chars).]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9038, title: 'tuj' } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9038, title: 'tuj' } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:11).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.064" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.064" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin max length (100chars)" id="e130d2b2-47d5-4f79-994c-d7ce18275ee0" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.064">
+    <testcase name="Status code is 200" time="0.062" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.062" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.062" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.062" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9039, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin max length (100chars).]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9039, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9039, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.062" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9039, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin max length (100chars).]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9039, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9039, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:12).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.062" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.062" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin max+1 length (101chars)" id="f470e941-ca93-4318-9098-9bb9b78aa0c2" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.047">
+    <testcase name="Response status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (with symbols)" id="adc5f583-3ec2-45a1-b325-2050ceb50646" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.047">
+    <testcase name="Response status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (digits only)" id="c35b6212-6827-450b-86f1-a06ba443f73f" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.065">
+    <testcase name="Status code is 200" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.063" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9040, title: '8175464474' } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin (digits only).]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9040, title: '8175464474' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9040, title: '8175464474' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.063" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9040, title: '8175464474' } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Create Category / Add category admin (digits only).]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9040, title: '8175464474' } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9040, title: '8175464474' } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:15).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.063" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (spaces only)" id="adb83bf2-017b-473e-bb0e-780b1c517035" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.050">
+    <testcase name="Response status code is 400" time="0.057" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.057" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.057" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (boolean value)" id="c5ec3b13-0e5f-4f72-a7a0-3ad5712db754" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.049">
+    <testcase name="Response status code is 400" time="0.050" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.050" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.050" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (invalid token)" id="bb707449-a3c6-427a-a6ca-38feabd44579" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.049">
+    <testcase name="Response status code is 401" time="0.050" classname="MakukhinViktor"/>
+    <testcase name="Error Unauthorized" time="0.050" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.050" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (Chinese alphabet)" id="d158edf0-a642-4f5b-be7b-8d9f98e12974" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.047">
+    <testcase name="Response status code is 400" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (invalid endpoint route)" id="3c8c621c-4971-4347-ba54-10a0ac909cdc" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 400" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Invalid endpoint error" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (Empty request body)" id="11b2a910-9bc3-47cf-80d6-231fb1a2e828" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.046">
+    <testcase name="Response status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category admin (number value)" id="99fc25c6-95db-402e-8dc0-a162ca5c90fc" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.047">
+    <testcase name="Response status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Create Category / Add category (No Auth)" id="a0f41fbb-bd90-4aac-bff7-429298d50fc1" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 401" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Error Unauthorized" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Get categories / Get list of categories (admin)" id="5e22bd0d-8cbe-4e80-babe-4ef0b7117463" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.187">
+    <testcase name="Response status code is 200" time="0.187" classname="MakukhinViktor"/>
+    <testcase name="The response body is an array" time="0.187" classname="MakukhinViktor"/>
+    <testcase name="Each element in the response array has the required fields - id and title" time="0.187" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.187" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Get categories / Get category by ID (admin)" id="422f7674-0353-445e-9799-3ec6128129b7" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.055">
+    <testcase name="Status code is 200" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9036, title: 'ea possimus ut' } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Get categories / Get category by ID (admin).]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9036, title: 'ea possimus ut' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9036, title: 'ea possimus ut' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9036, title: 'ea possimus ut' } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Get categories / Get category by ID (admin).]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9036, title: 'ea possimus ut' } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9036, title: 'ea possimus ut' } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:25).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that categoryId is correct" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Get categories / Get category by not existed ID (admin)" id="c349eb89-e9fd-4348-9fb0-ab88c7fc8309" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.053">
+    <testcase name="Status code is 404" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'errors'" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Get categories / Get category by negative ID (admin)" id="912f9b93-43fb-473d-a331-643563d76638" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="6" errors="0" time="0.052">
+    <testcase name="Status code is 400" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 404">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Get categories / Get category by negative ID (admin).]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 404
+   at Object.eval sandbox-script.js:1:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Invalid endpoint error" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected 'Unable to find category record(s)' to include 'There is no such endpoint!'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Get categories / Get category by negative ID (admin).]]>
+        <![CDATA[Test description: Invalid endpoint error.]]>
+        <![CDATA[Error message: expected 'Unable to find category record(s)' to include 'There is no such endpoint!'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 'Unable to find category record(s)' to include 'There is no such endpoint!'
+   at Object.eval sandbox-script.js:2:27).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Get categories / Get category by ID=0 (admin)" id="9c9ce7dd-7799-4f3a-ba18-24e4a0bc4ce2" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="6" errors="0" time="0.052">
+    <testcase name="Status code is 400" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 404">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Get categories / Get category by ID=0 (admin).]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 404
+   at Object.eval sandbox-script.js:1:28).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Invalid endpoint error" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected '{&quot;errors&quot;:&quot;Unable to find category re…' to include 'There is no such endpoint!'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Get categories / Get category by ID=0 (admin).]]>
+        <![CDATA[Test description: Invalid endpoint error.]]>
+        <![CDATA[Error message: expected '{"errors":"Unable to find category re…' to include 'There is no such endpoint!'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '{"errors":"Unable to find category re…' to include 'There is no such endpoint!'
+   at Object.eval sandbox-script.js:3:28).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Get categories / Get category by ID (admin) invalid ID" id="e275c2d5-3394-4d06-8e0d-0f55ba13e21a" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.048">
+    <testcase name="Response status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'id' parameter" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Update categories / Update category admin" id="48b885ff-fd9b-4014-bc76-b52e5a6c687b" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.069">
+    <testcase name="Status code is 200" time="0.066" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.066" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.066" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.066" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9036, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Update categories / Update category admin.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9036, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9036, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:30).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.066" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9036, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Update categories / Update category admin.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9036, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9036, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:30).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.066" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.066" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Update categories / Update category admin (invalid ID)" id="63777729-7a99-4e67-a2dc-0a0c363579d7" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.047">
+    <testcase name="Response status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'id' parameter" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Update categories / Update category (No Auth)" id="6cf1783c-ff89-4a3d-9f44-88f4ac6e41c7" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 401" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error Unauthorized" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Update categories / Update category admin (Empty body)" id="5d841fef-9211-4b6d-a966-6882d5905e9c" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.046">
+    <testcase name="Response status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'id' parameter" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Delete category / Delete category by ID (admin)" id="3808c4e3-8feb-471d-b8f7-ac9b94e81325" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.065">
+    <testcase name="Status code is 200" time="0.065" classname="MakukhinViktor"/>
+    <testcase name="Successfull category deletion" time="0.065" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.065" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Delete category / Delete category not existed ID (admin)" id="bb835cbc-d5a5-429b-9193-28ac173fda68" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="6" errors="0" time="0.051">
+    <testcase name="Status code is 404" time="0.051" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected response to have status code 404 but got 200">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Delete category / Delete category not existed ID (admin).]]>
+        <![CDATA[Test description: Status code is 404.]]>
+        <![CDATA[Error message: expected response to have status code 404 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 404 but got 200
+   at Object.eval sandbox-script.js:1:35).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'errors'" time="0.051" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (result) } to have property 'errors'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Delete category / Delete category not existed ID (admin).]]>
+        <![CDATA[Test description: Check that response body contains 'errors'.]]>
+        <![CDATA[Error message: expected { Object (result) } to have property 'errors'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (result) } to have property 'errors'
+   at Object.eval sandbox-script.js:2:35).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.051" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Delete category / Delete category ID=0 (admin)" id="c17d1313-0b97-49a1-b348-2a1fa3065396" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="6" errors="0" time="0.052">
+    <testcase name="Status code is 400" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 200">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Delete category / Delete category ID=0 (admin).]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 200
+   at Object.eval sandbox-script.js:1:36).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Invalid endpoint error" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected '{&quot;result&quot;:&quot;Success: record was remove…' to include 'There is no such endpoint!'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Delete category / Delete category ID=0 (admin).]]>
+        <![CDATA[Test description: Invalid endpoint error.]]>
+        <![CDATA[Error message: expected '{"result":"Success: record was remove…' to include 'There is no such endpoint!'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected '{"result":"Success: record was remove…' to include 'There is no such endpoint!'
+   at Object.eval sandbox-script.js:3:36).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Delete category / Delete category negative ID (admin)" id="df788d81-069b-411f-8206-430edf341774" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="6" errors="0" time="0.053">
+    <testcase name="Status code is 400" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 200">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Delete category / Delete category negative ID (admin).]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 200
+   at Object.eval sandbox-script.js:1:37).]]>
+      </failure>
+    </testcase>
+    <testcase name="Invalid endpoint error" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Admin role / Delete category / Delete category negative ID (admin).]]>
+        <![CDATA[Test description: Invalid endpoint error.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:2:37).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Admin role / Delete category / Delete category invalid ID (admin)" id="a59a3e52-435b-4009-b9a8-28be11bca23b" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.046">
+    <testcase name="Response status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'id' parameter" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Teacher role / Add category (teacher)" id="d7da7145-6e7f-477b-be50-4fc3cf12e166" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.052">
+    <testcase name="Status code is 403" time="0.053" classname="MakukhinViktor"/>
+    <testcase name="Teacher is forbidden to create a category" time="0.053" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.053" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Teacher role / Update category (teacher)" id="a1092ebf-8414-402e-9a81-6d0d88640e2a" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.053">
+    <testcase name="Status code is 403" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Teacher is forbidden to update a category" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.054" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Teacher role / Get list of categories (teacher)" id="07d8d9b5-ed40-4b04-8655-633dd9b7e4be" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.301">
+    <testcase name="Response status code is 200" time="0.601" classname="MakukhinViktor"/>
+    <testcase name="The response body is an array" time="0.601" classname="MakukhinViktor"/>
+    <testcase name="Each element in the response array has the required fields - id and title" time="0.601" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.601" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Teacher role / Get category by ID (teacher)" id="ff3c5034-bdff-490a-b2b4-be84d2c3c45d" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.054">
+    <testcase name="Status code is 200" time="0.057" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.057" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.057" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.057" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9039, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Teacher role / Get category by ID (teacher).]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9039, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9039, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:42).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.057" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9039, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Teacher role / Get category by ID (teacher).]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9039, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9039, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:42).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.057" classname="MakukhinViktor"/>
+    <testcase name="Check that categoryId is correct" time="0.057" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Teacher role / Delete category by ID (teacher)" id="50068998-4bd7-454a-965b-af21c544630d" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.054">
+    <testcase name="Status code is 403" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Teacher is forbidden to delete a category" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Student role / Add category (student)" id="05441a1e-6b20-4040-8120-7731156753cd" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.054">
+    <testcase name="Status code is 403" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Student is forbidden to create a category" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.056" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Student role / Update category (student)" id="97afd580-d149-4434-b61c-c86040cc8ca7" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.052">
+    <testcase name="Status code is 403" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Student is forbidden to update a category" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Student role / Get list of categories (student)" id="3461791a-af5b-4dc0-bb5d-4664ab1c2ab7" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.149">
+    <testcase name="Response status code is 200" time="0.144" classname="MakukhinViktor"/>
+    <testcase name="The response body is an array" time="0.144" classname="MakukhinViktor"/>
+    <testcase name="Each element in the response array has the required fields - id and title" time="0.144" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.144" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Student role / Get category by ID (student)" id="ebd9e5ec-13fa-4ac9-8aac-6f6e603fd079" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.054">
+    <testcase name="Status code is 200" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9038, title: 'tuj' } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Student role / Get category by ID (student).]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9038, title: 'tuj' } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9038, title: 'tuj' } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:47).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9038, title: 'tuj' } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-1 / Category Management / Student role / Get category by ID (student).]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9038, title: 'tuj' } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9038, title: 'tuj' } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:47).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that categoryId is correct" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Student role / Delete category by ID (student)" id="fde92a7a-7fe6-4aa9-83af-7158678e54b0" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.055">
+    <testcase name="Status code is 403" time="0.051" classname="MakukhinViktor"/>
+    <testcase name="Student is forbidden to delete a category" time="0.051" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.051" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Get a category by ID (No Auth)" id="7dcb923b-d952-40b9-b1f1-ec5d9143b09a" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 401" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Error Unauthorized" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-1 / Category Management / Get list of categories (No Auth)" id="27565a6f-7f6a-4866-a441-226c5dd7654a" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 401" time="0.045" classname="MakukhinViktor"/>
+    <testcase name="Error Unauthorized" time="0.045" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.045" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Alive?" id="2b63d82b-5ce6-42e0-8a40-45ca033cc997" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 200" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Check that status is OK" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get default token" id="b3501c41-d8d4-4d91-9531-e726cc7a5334" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.304">
+    <testcase name="Add default admin access token to collection variables" time="0.296" classname="MakukhinViktor"/>
+    <testcase name="Status code is 200" time="0.296" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.296" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create an admin" id="13670a92-3bd0-424d-8c11-bb6fad697051" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="9" errors="0" time="0.055">
+    <testcase name="Status code is 200" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected response to have status code 200 but got 400">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create an admin.]]>
+        <![CDATA[Test description: Status code is 200.]]>
+        <![CDATA[Error message: expected response to have status code 200 but got 400.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 200 but got 400
+   at Object.eval sandbox-script.js:1:53).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'id', 'username', 'email', 'firstName', 'lastName', 'role', 'updatedAt', 'createdAt' fields" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (errors) } to have property 'id'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create an admin.]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'username', 'email', 'firstName', 'lastName', 'role', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { Object (errors) } to have property 'id'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (errors) } to have property 'id'
+   at Object.eval sandbox-script.js:2:53).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected undefined to deeply equal 'viktor.admin'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create an admin.]]>
+        <![CDATA[Test description: Response body values matches the request body info entered.]]>
+        <![CDATA[Error message: expected undefined to deeply equal 'viktor.admin'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to deeply equal 'viktor.admin'
+   at Object.eval sandbox-script.js:3:53).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create an admin token" id="a8a31bce-0170-4717-8293-2335eee2560e" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.319">
+    <testcase name="Status code is 200" time="0.370" classname="MakukhinViktor"/>
+    <testcase name="Add admin access token to collection variables" time="0.370" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.370" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a teacher" id="6df44285-d4c2-427e-953f-f5986aa3b7a8" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.379">
+    <testcase name="Status code is 200" time="0.394" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'username', 'email', 'firstName', 'lastName', 'role', 'updatedAt', 'createdAt' fields" time="0.394" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13211, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'username', 'email', 'firstName', 'lastName', 'role', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 13211, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13211, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:55).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.394" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a teacher token" id="bf989a2e-c5dd-497a-aa48-bd5057a32d83" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.373">
+    <testcase name="Status code is 200" time="0.379" classname="MakukhinViktor"/>
+    <testcase name="Add teacher access token to collection variables" time="0.379" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.379" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a student" id="24428a7c-be2f-4f7a-bc9b-583acb2fa4e6" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="6" errors="0" time="0.369">
+    <testcase name="Status code is 200" time="0.374" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'username', 'email', 'firstName', 'lastName', 'role', 'updatedAt', 'createdAt' fields" time="0.374" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13212, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a student.]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'username', 'email', 'firstName', 'lastName', 'role', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 13212, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13212, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:57).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.374" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected 1 to deeply equal 3">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a student.]]>
+        <![CDATA[Test description: Response body values matches the request body info entered.]]>
+        <![CDATA[Error message: expected 1 to deeply equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 1 to deeply equal 3
+   at Object.eval sandbox-script.js:3:57).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a student token" id="4e88bdbf-030a-45c2-aaff-e6dc3eb1aedb" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.366">
+    <testcase name="Status code is 200" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Add student access token to collection variables" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.368" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create category (admin)" id="eacc4139-bf61-44cc-aaf1-caf24a19df10" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.065">
+    <testcase name="Status code is 200" time="0.064" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'title', 'updatedAt', 'createdAt' fields" time="0.064" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9041, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create category (admin).]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'title', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 9041, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9041, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:59).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title matches the title entered in the request body" time="0.064" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course (No Auth)" id="4d5b59e3-b410-4546-ad08-e6f7edfe99d4" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.049">
+    <testcase name="Status code is 401" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error Unauthorized" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course (Invalid token)" id="aba13055-2ec9-4488-87c8-f3e928f4a13e" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.050">
+    <testcase name="Status code is 401" time="0.049" classname="MakukhinViktor"/>
+    <testcase name="Error Unauthorized" time="0.049" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course (invalid path)" id="d58ea690-ab52-4b26-bf5a-9a8547b30140" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 400" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Invalid endpoint error" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course (Empty request body)" id="cf590e80-9305-421e-bf08-750cfbca791e" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'errors'" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Request body is empty" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Errors array is not empty" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course (student)" id="2f16ed35-41ee-4758-aae1-c3dab197283d" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.054">
+    <testcase name="Status code is 403" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Student is forbidden to create a course" time="0.054" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course (admin)" id="07b63299-fbe2-40ec-9195-4d144ecfd840" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.081">
+    <testcase name="Status code is 200" time="0.079" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields" time="0.079" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { Object (id, title, ...) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a course (admin).]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { Object (id, title, ...) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { Object (id, title, ...) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:65).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.079" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course (teacher)" id="cb86f025-8ff0-4a1a-bcbd-933ad11d544e" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.085">
+    <testcase name="Status code is 200" time="0.080" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields" time="0.080" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14367, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a course (teacher).]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 14367, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14367, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:66).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.080" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create an already existed course (teacher)" id="ea6a29b3-5eb4-4d2c-b515-152dad21bcd3" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.058">
+    <testcase name="Status code is 400" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Title should be unique error" time="0.056" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with only spaces in title and description (teacher)" id="fd7fc157-f325-4fb4-bec3-5efea70007a4" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.049">
+    <testcase name="Status code is 400" time="0.050" classname="MakukhinViktor"/>
+    <testcase name="Error message for 'title' parameter" time="0.050" classname="MakukhinViktor"/>
+    <testcase name="Error message for 'description' parameter" time="0.050" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="Cannot read properties of undefined (reading 'msg')">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a course with only spaces in title and description (teacher).]]>
+        <![CDATA[Test description: Error message for 'description' parameter.]]>
+        <![CDATA[Error message: Cannot read properties of undefined (reading 'msg').]]>
+        <![CDATA[Stacktrace: TypeError: Cannot read properties of undefined (reading 'msg')
+   at Object.eval sandbox-script.js:3:68).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with number values in title and description (teacher)" id="80aa5b38-c461-49f9-8bad-07edaa2e23f7" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.049">
+    <testcase name="Status code is 400" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error message for 'description' parameter" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with boolean values in title and description (teacher)" id="90b8e6a0-5908-4619-8f7f-0b0f171f4060" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.050">
+    <testcase name="Status code is 400" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Error message for 'description' parameter" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with missing title (teacher)" id="9d495e3e-a57f-4cd9-959b-acbd96ccbc66" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 400" time="0.049" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'errors'" time="0.049" classname="MakukhinViktor"/>
+    <testcase name="Error: 'Parameter should be a string'" time="0.049" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with missing description (teacher)" id="21743f34-eb5d-4aab-a373-3d906a371b21" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 400" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'errors'" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error message contains 'Parameter should be a string' and 'description'" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with missing visible (teacher)" id="82496bc9-9804-4dc2-96a3-e1c74c3a597f" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 400" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error message for 'visible' parameter" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with missing categoryId (teacher)" id="23f357fb-f782-4383-b914-0c43d207ae92" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 400" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'categoryId' parameter" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with string values &quot;true&quot;/&quot;false&quot; in visible parameter(teacher)" id="9507b6d6-c631-4fc9-86ea-8c79d1ce25fa" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="6" errors="0" time="0.080">
+    <testcase name="Status code is 400" time="0.078" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 200">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a course with string values "true"/"false" in visible parameter(teacher).]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 200.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 200
+   at Object.eval sandbox-script.js:1:75).]]>
+      </failure>
+    </testcase>
+    <testcase name="Error message for 'visible' parameter" time="0.078" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14369, …(4) } to have property 'errors'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a course with string values "true"/"false" in visible parameter(teacher).]]>
+        <![CDATA[Test description: Error message for 'visible' parameter.]]>
+        <![CDATA[Error message: expected { id: 14369, …(4) } to have property 'errors'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14369, …(4) } to have property 'errors'
+   at Object.eval sandbox-script.js:2:75).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with string value in visible parameter(teacher)" id="c42a5d5d-536d-4266-a93d-5c2a9303874c" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.049">
+    <testcase name="Status code is 400" time="0.050" classname="MakukhinViktor"/>
+    <testcase name="Error message for 'visible' parameter" time="0.050" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with number value in visible parameter (teacher)" id="030103a7-913d-4994-a273-80c7ab121a3e" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 400" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error message for 'visible' parameter" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with string in categoryId (teacher)" id="44943d95-0b66-4010-b0e0-c6439141a7e5" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 400" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'categoryId' parameter" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with a string of letters, digits, symbols (teacher)" id="975c913e-56c0-4359-b844-2dec3a8e0460" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.077">
+    <testcase name="Status code is 200" time="0.074" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields" time="0.074" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14370, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a course with a string of letters, digits, symbols (teacher).]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 14370, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14370, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:79).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.074" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with 2 char (min-1) title and description (teacher)" id="6f096e85-c874-4689-8130-0b5da94af8bd" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 400" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error message for 'description' parameter" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with 3 char (min) title and description (teacher)" id="00c0412f-1405-4f67-9ab3-e8dd9902cf4f" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.078">
+    <testcase name="Status code is 200" time="0.077" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields" time="0.077" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14371, title: '8xg', …(3) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a course with 3 char (min) title and description (teacher).]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 14371, title: '8xg', …(3) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14371, title: '8xg', …(3) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:81).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.077" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with 100 char (max) title (teacher)" id="9de2c6c0-ce85-4ef6-933c-e97f370ff415" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.080">
+    <testcase name="Status code is 200" time="0.079" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields" time="0.079" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14372, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a course with 100 char (max) title (teacher).]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 14372, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14372, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:82).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.079" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with 101 char (max+1) title (teacher)" id="7c9e4acf-49bc-4d39-a728-bbb403ca432e" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.049">
+    <testcase name="Status code is 400" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'title' parameter (max length)" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with 500 char (max) description (teacher)" id="1e959ee2-9446-496b-b906-6ecf5d3bb758" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.090">
+    <testcase name="Status code is 200" time="0.093" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields" time="0.093" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14373, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Create a course with 500 char (max) description (teacher).]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 14373, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14373, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:84).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.093" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Create a course with 501 char (max+1) description (teacher)" id="5976a838-6f70-4839-84a9-da8bd334828d" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.049">
+    <testcase name="Status code is 400" time="0.049" classname="MakukhinViktor"/>
+    <testcase name="Error messages for 'description' parameter (max length)" time="0.049" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course list (NoAuth)" id="79d4068d-77d4-4acd-9b6d-9aca085cae7c" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 401" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Response body contains 'Unauthorized'" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course list (admin)" id="08b0dd7f-793c-485f-9732-02db6cc1fc78" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="1.198">
+    <testcase name="Status code is 200" time="1.094" classname="MakukhinViktor"/>
+    <testcase name="Response contains a list of courses" time="1.094" classname="MakukhinViktor"/>
+    <testcase name="Request body contains a list of courses with id, title, description, visible, categoryId, likes, dislikes" time="1.094" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course list (teacher)" id="40407a24-93ae-427d-9e1e-75b9c7ae0dd0" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="1.018">
+    <testcase name="Status code is 200" time="0.994" classname="MakukhinViktor"/>
+    <testcase name="Response contains a list of courses" time="0.994" classname="MakukhinViktor"/>
+    <testcase name="Request body contains a list of courses with id, title, description, visible, categoryId, likes, dislikes" time="0.994" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course list (student)" id="90582c86-88b1-41ff-bdc0-8a5cf541aa04" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="1.055">
+    <testcase name="Status code is 200" time="0.980" classname="MakukhinViktor"/>
+    <testcase name="Response contains a list of courses" time="0.980" classname="MakukhinViktor"/>
+    <testcase name="Request body contains a list of courses with id, title, description, visible, categoryId, likes, dislikes" time="0.980" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course by ID (student) negative ID" id="0bea8963-23e4-4134-875e-27a64b142d68" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 400" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Invalid endpoint error" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course by ID (student) ID=0" id="97bd9ec5-038d-4ea1-a80d-5d7262002893" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="6" errors="0" time="0.053">
+    <testcase name="Status code is 400" time="0.053" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected response to have status code 400 but got 404">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Get course by ID (student) ID=0.]]>
+        <![CDATA[Test description: Status code is 400.]]>
+        <![CDATA[Error message: expected response to have status code 400 but got 404.]]>
+        <![CDATA[Stacktrace: AssertionError: expected response to have status code 400 but got 404
+   at Object.eval sandbox-script.js:1:91).]]>
+      </failure>
+    </testcase>
+    <testcase name="Invalid endpoint error" time="0.053" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Get course by ID (student) ID=0.]]>
+        <![CDATA[Test description: Invalid endpoint error.]]>
+        <![CDATA[Error message: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string.]]>
+        <![CDATA[Stacktrace: AssertionError: the given combination of arguments (undefined and string) is invalid for this assertion. You can use an array, a map, an object, a set, a string, or a weakset instead of a string
+   at Object.eval sandbox-script.js:2:91).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course by ID (student) ID=string" id="d582c995-928e-432b-9ccc-5a05231be552" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 400" time="0.045" classname="MakukhinViktor"/>
+    <testcase name="Invalid endpoint error" time="0.045" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course by ID (NoAuth)" id="4dc6a117-daf7-4cc2-a8f8-dd99e2a0fc65" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 401" time="0.045" classname="MakukhinViktor"/>
+    <testcase name="Response body contains 'Unauthorized'" time="0.045" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course by ID (admin)" id="cf27e1ff-d230-4540-8747-28da2a0f31e7" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.056">
+    <testcase name="Status code is 200" time="0.055" classname="MakukhinViktor"/>
+    <testcase name="Verify course properties and values" time="0.055" classname="MakukhinViktor"/>
+    <testcase name="Check that id and categoryId are correct" time="0.055" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course by ID (teacher)" id="42c1f92a-134e-4df4-b576-df5228a66cb9" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.058">
+    <testcase name="Status code is 200" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Verify course properties and values" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that id and categoryId are correct" time="0.056" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Get course by ID (student)" id="5ea243b9-b356-4a45-a8ac-0b997d9f2185" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.056">
+    <testcase name="Status code is 200" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Verify course properties and values" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Check that id and categoryId are correct" time="0.054" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Update course (NoAuth)" id="a9b61ee5-9a4f-43ad-ae9f-9c0754432567" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.049">
+    <testcase name="Status code is 401" time="0.049" classname="MakukhinViktor"/>
+    <testcase name="Response body contains 'Unauthorized'" time="0.049" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Update course empty body (teacher)" id="874a5b50-d8d3-4732-873d-1428364ddf3d" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 400" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'errors'" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Request body is empty" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Errors array is not empty" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Update course no ID (teacher)" id="e4be11dd-b77c-4afd-b4c4-4ec92e357aeb" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.049">
+    <testcase name="Status code is 400" time="0.049" classname="MakukhinViktor"/>
+    <testcase name="Error messages for the 'id' parameter" time="0.049" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Update course ID=string (teacher)" id="4f4374b7-9417-4e3d-81ef-d9af9e3171f3" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.050">
+    <testcase name="Status code is 400" time="0.050" classname="MakukhinViktor"/>
+    <testcase name="Error message for the 'id' parameter" time="0.050" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Update course ID=boolean (teacher)" id="30b3b401-c34f-4cec-92c1-c59424fbf725" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 400" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Error message for the 'id' parameter" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Update course (student)" id="a9a63dc5-7626-4f0b-84f0-a3fd144dbfec" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.056">
+    <testcase name="Status code is 403" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Student is forbidden to update a course" time="0.054" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Update course created by admin (admin)" id="48ec4550-b6b2-495e-969d-05ed5e388172" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.085">
+    <testcase name="Status code is 200" time="0.070" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields" time="0.070" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14366, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Update course created by admin (admin).]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 14366, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14366, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:103).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.070" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Update course created by teacher (admin)" id="baf44c3a-3530-4fb8-9c44-0f6b2d0127e6" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.054">
+    <testcase name="Status code is 404" time="0.053" classname="MakukhinViktor"/>
+    <testcase name="Verifying error message" time="0.053" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Update course (teacher)" id="3f048019-088f-4c46-bc39-95a27be27990" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="3" errors="0" time="0.068">
+    <testcase name="Status code is 200" time="0.069" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields" time="0.069" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14367, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-2 / Update course (teacher).]]>
+        <![CDATA[Test description: Check that response body contains 'id', 'title', 'categoryId', 'description', 'visible', 'updatedAt', 'createdAt' fields.]]>
+        <![CDATA[Error message: expected { id: 14367, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14367, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:2:105).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.069" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Delete a course (No Auth)" id="72a4ebaf-3809-4b0b-add1-f9af57ec9399" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.048">
+    <testcase name="Status code is 401" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Response body contains 'Unauthorized'" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Delete a course No ID (teacher)" id="c4d0d2cf-ede6-400f-87fb-d1de8f293d36" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 400" time="0.046" classname="MakukhinViktor"/>
+    <testcase name="Invalid endpoint error" time="0.046" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Delete a course (student)" id="05905190-b89e-4ec5-98c0-735733c33b71" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.054">
+    <testcase name="Status code is 403" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Student is forbidden to delete a course" time="0.054" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Delete a course negative ID (teacher)" id="b21b8dd5-de5d-4e3f-a6ff-4c7a161adc23" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 400" time="0.048" classname="MakukhinViktor"/>
+    <testcase name="Invalid endpoint error" time="0.048" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Delete a course ID=string (teacher) Copy" id="8b813fab-36ed-4ee2-9c5e-72c9bdd621ef" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.046">
+    <testcase name="Status code is 400" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Invalid endpoint error" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Delete a course another ID (teacher)" id="0d6da3f3-cbbf-4d2f-86eb-bfde43c0ad83" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.056">
+    <testcase name="Status code is 403" time="0.057" classname="MakukhinViktor"/>
+    <testcase name="Teacher is forbidden to delete a course if they are not an owner" time="0.057" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Delete a course (teacher)" id="f508f8fe-9723-4f7d-b8ee-6748176c78aa" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.071">
+    <testcase name="Status code is 200" time="0.067" classname="MakukhinViktor"/>
+    <testcase name="Successfull deletion" time="0.067" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Delete a course (admin)" id="c707fdae-c732-4fc9-b840-a71f3a152484" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.067">
+    <testcase name="Status code is 200" time="0.066" classname="MakukhinViktor"/>
+    <testcase name="Successfull deletion" time="0.066" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Check that course was deleted (teacher)" id="0da9dfda-421b-4905-9703-21ba08513ab9" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.052">
+    <testcase name="Status code is 404" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Course is not found" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Check that course was deleted (student)" id="4cab95ec-5124-4883-a480-29a6b643d0fa" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.052">
+    <testcase name="Status code is 404" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Course is not found" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Check that course was deleted (admin)" id="6b122072-8049-44bf-bd9b-8fd0039f1b31" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.053">
+    <testcase name="Status code is 404" time="0.053" classname="MakukhinViktor"/>
+    <testcase name="Course is not found" time="0.053" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-2 / Delete category by ID (admin)" id="496babd1-236e-4f50-8819-935a3712afde" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.068">
+    <testcase name="Status code is 200" time="0.068" classname="MakukhinViktor"/>
+    <testcase name="Delete was successful" time="0.068" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 1 Admin can manage categories / Log in under the default admin role" id="6d6b8df0-9531-4f4b-98f6-74767e877b76" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.416">
+    <testcase name="Status code is 200" time="0.408" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.408" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.408" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 1 Admin can manage categories / Register a new admin" id="6a10e974-bff9-4f71-ab27-82a4237f94ea" timestamp="2023-09-27T08:00:32.402Z" tests="11" failures="9" errors="0" time="0.381">
+    <testcase name="Status code is 200" time="0.397" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.397" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'username'" time="0.397" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'email'" time="0.397" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'firstName'" time="0.397" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'lastName'" time="0.397" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'role'" time="0.397" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.397" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13213, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 1 Admin can manage categories / Register a new admin.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 13213, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13213, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:119).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.397" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13213, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 1 Admin can manage categories / Register a new admin.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 13213, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13213, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:9:119).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.397" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected 3 to deeply equal 1">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 1 Admin can manage categories / Register a new admin.]]>
+        <![CDATA[Test description: Response body values matches the request body info entered.]]>
+        <![CDATA[Error message: expected 3 to deeply equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 3 to deeply equal 1
+   at Object.eval sandbox-script.js:10:119).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.397" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 1 Admin can manage categories / Log in under a new registered admin" id="5e0d1c60-3ce7-4675-b5f5-1b24cf99acfb" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.358">
+    <testcase name="Status code is 200" time="0.338" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.338" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.338" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 1 Admin can manage categories / Get list of categories" id="1f9c6406-9649-4487-8320-542c602399d2" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.186">
+    <testcase name="Response status code is 200" time="0.189" classname="MakukhinViktor"/>
+    <testcase name="The response body is an array" time="0.189" classname="MakukhinViktor"/>
+    <testcase name="Each element in the response array has the required fields - id and title" time="0.189" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.189" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 1 Admin can manage categories / Create a new category" id="eb89feca-cc79-40f5-8587-1c294a8ba1ed" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.065">
+    <testcase name="Status code is 200" time="0.068" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.068" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.068" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.068" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9042, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 1 Admin can manage categories / Create a new category.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9042, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9042, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:122).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.068" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9042, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 1 Admin can manage categories / Create a new category.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9042, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9042, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:122).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.068" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.068" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 1 Admin can manage categories / Check that category was created" id="a0bb077d-970f-475a-9db1-b5e1f1753d12" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.056">
+    <testcase name="Status code is 200" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.054" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9042, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 1 Admin can manage categories / Check that category was created.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9042, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9042, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:123).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.054" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9042, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 1 Admin can manage categories / Check that category was created.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9042, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9042, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:123).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.054" classname="MakukhinViktor"/>
+    <testcase name="Check that categoryId is correct" time="0.054" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 1 Admin can manage categories / Update category" id="2193b1f8-0087-49db-8eb9-7133746cb403" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.066">
+    <testcase name="Status code is 200" time="0.064" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.064" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.064" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.064" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9042, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 1 Admin can manage categories / Update category.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9042, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9042, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:124).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.064" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9042, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 1 Admin can manage categories / Update category.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9042, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9042, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:124).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.064" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.064" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 1 Admin can manage categories / Delete category" id="445968dc-7bb2-4995-ba93-53a1ff0ad860" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.064">
+    <testcase name="Status code is 200" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Successfull category deletion" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.063" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 1 Admin can manage categories / Check that category was deleted" id="97276b46-6a30-4fce-802e-b3f2661b3e88" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.052">
+    <testcase name="Status code is 404" time="0.051" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'errors'" time="0.051" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.051" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Log in under the default admin role" id="6ca99b5f-1e7e-4cd6-be2e-63943657ad73" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.372">
+    <testcase name="Status code is 200" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.368" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Register a new admin" id="bfc43a02-f003-42a6-8e1f-19149482ac4f" timestamp="2023-09-27T08:00:32.402Z" tests="11" failures="16" errors="0" time="0.274">
+    <testcase name="Status code is 200" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'username'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'email'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'firstName'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'lastName'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'role'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.383" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13214, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Register a new admin.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 13214, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13214, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:128).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.383" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13214, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Register a new admin.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 13214, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13214, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:9:128).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.383" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected 3 to deeply equal 1">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Register a new admin.]]>
+        <![CDATA[Test description: Response body values matches the request body info entered.]]>
+        <![CDATA[Error message: expected 3 to deeply equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 3 to deeply equal 1
+   at Object.eval sandbox-script.js:10:128).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.383" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Register a teacher" id="8d5e58d8-9b3f-4d59-a9e3-465be38cb678" timestamp="2023-09-27T08:00:32.402Z" tests="11" failures="6" errors="0" time="0.372">
+    <testcase name="Status code is 200" time="0.385" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.385" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'username'" time="0.385" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'email'" time="0.385" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'firstName'" time="0.385" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'lastName'" time="0.385" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'role'" time="0.385" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.385" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13215, username: 'Loy14', …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Register a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 13215, username: 'Loy14', …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13215, username: 'Loy14', …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:129).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.385" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13215, username: 'Loy14', …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Register a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 13215, username: 'Loy14', …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13215, username: 'Loy14', …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:9:129).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.385" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.385" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Log in under a new registered admin" id="55fa6901-8de9-4547-8c0c-8e73b286d2cc" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="2" errors="0" time="0.366">
+    <testcase name="Status code is 200" time="0.358" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.358" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.358" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Create a new category under an admin" id="79fd91ad-efb1-411a-ac3d-0fecf34fb8b3" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="10" errors="0" time="0.063">
+    <testcase name="Status code is 200" time="0.077" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.077" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.077" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.077" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9043, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Create a new category under an admin.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9043, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9043, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:131).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.077" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9043, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Create a new category under an admin.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9043, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9043, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:131).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.077" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.077" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Log in under a new registered teacher" id="841b9094-ab65-4185-9eb8-9fe88b61d162" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.350">
+    <testcase name="Status code is 200" time="0.375" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.375" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.375" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Get a list of available categories under a teacher" id="945e3eaa-8d44-4346-a8d5-9669af994ace" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.182">
+    <testcase name="Response status code is 200" time="0.180" classname="MakukhinViktor"/>
+    <testcase name="The response body is an array" time="0.180" classname="MakukhinViktor"/>
+    <testcase name="Each element in the response array has the required fields - id and title" time="0.180" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.180" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Get a category by ID under a teacher" id="e3bf6b91-7ded-414c-88af-b281d8ae8285" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="10" errors="0" time="0.051">
+    <testcase name="Status code is 200" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9043, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Get a category by ID under a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9043, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9043, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:134).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.052" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9043, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Get a category by ID under a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9043, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9043, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:134).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Check that categoryId is correct" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Create a course under a teacher" id="5a4d80a7-ab51-4ef4-a5c6-d45c14645b2a" timestamp="2023-09-27T08:00:32.402Z" tests="10" failures="13" errors="0" time="0.070">
+    <testcase name="Status code is 200" time="0.078" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.078" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.078" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'categoryId'" time="0.078" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'description'" time="0.078" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'visible'" time="0.078" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.078" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14374, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Create a course under a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 14374, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14374, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:7:135).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.078" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14374, …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Create a course under a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 14374, …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14374, …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:8:135).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.078" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.078" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Check that course was created" id="7f0dd178-3629-4858-9761-1f2816d8da17" timestamp="2023-09-27T08:00:32.402Z" tests="12" failures="15" errors="0" time="0.052">
+    <testcase name="Status code is 200" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'description'" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'visible'" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'categoryId'" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'likes'" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'dislikes'" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.056" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14374, …(6) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Check that course was created.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 14374, …(6) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14374, …(6) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:9:136).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.056" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14374, …(6) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Check that course was created.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 14374, …(6) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14374, …(6) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:10:136).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.056" classname="MakukhinViktor"/>
+    <testcase name="Check that id and categoryId are correct" time="0.056" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Update a course under a teacher" id="e5f4822d-92af-460e-b57f-25e53cf7935f" timestamp="2023-09-27T08:00:32.402Z" tests="10" failures="13" errors="0" time="0.062">
+    <testcase name="Status code is 200" time="0.071" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.071" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.071" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'categoryId'" time="0.071" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'description'" time="0.071" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'visible'" time="0.071" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.071" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14374, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Update a course under a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 14374, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14374, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:7:137).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.071" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14374, …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 2 Teacher can manage courses / Update a course under a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 14374, …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14374, …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:8:137).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.071" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.071" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Delete a course under a teacher" id="9545ecd8-61ba-4671-9845-82c2461a641d" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="2" errors="0" time="0.061">
+    <testcase name="Status code is 200" time="0.067" classname="MakukhinViktor"/>
+    <testcase name="Successfull category deletion" time="0.067" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.067" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 2 Teacher can manage courses / Check that course was deleted" id="22a72b45-1a32-4d29-a9c2-0f4a62948cfa" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="2" errors="0" time="0.050">
+    <testcase name="Status code is 404" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Course is not found" time="0.052" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.052" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Log in under the default admin role" id="85dc9194-ddd8-4b82-851e-f55ac4e5dc46" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.363">
+    <testcase name="Status code is 200" time="0.363" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.363" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.363" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Register a new admin" id="2d251304-1a61-4a5a-adb7-caada5619815" timestamp="2023-09-27T08:00:32.402Z" tests="11" failures="9" errors="0" time="0.380">
+    <testcase name="Status code is 200" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'username'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'email'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'firstName'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'lastName'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'role'" time="0.383" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.383" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13216, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Register a new admin.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 13216, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13216, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:141).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.383" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13216, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Register a new admin.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 13216, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13216, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:9:141).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.383" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected 3 to deeply equal 1">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Register a new admin.]]>
+        <![CDATA[Test description: Response body values matches the request body info entered.]]>
+        <![CDATA[Error message: expected 3 to deeply equal 1.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 3 to deeply equal 1
+   at Object.eval sandbox-script.js:10:141).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.383" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Register a teacher" id="d050bf60-c24c-436a-9f65-92c4e83fd0f6" timestamp="2023-09-27T08:00:32.402Z" tests="11" failures="6" errors="0" time="0.368">
+    <testcase name="Status code is 200" time="0.365" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.365" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'username'" time="0.365" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'email'" time="0.365" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'firstName'" time="0.365" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'lastName'" time="0.365" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'role'" time="0.365" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.365" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13217, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Register a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 13217, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13217, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:142).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.365" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13217, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Register a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 13217, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13217, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:9:142).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.365" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.365" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Register a student" id="04a3e9e4-fafb-47af-84d9-f050589e1f84" timestamp="2023-09-27T08:00:32.402Z" tests="11" failures="9" errors="0" time="0.364">
+    <testcase name="Status code is 200" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'username'" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'email'" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'firstName'" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'lastName'" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'role'" time="0.368" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.368" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13218, …(5) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Register a student.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 13218, …(5) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13218, …(5) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:8:143).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.368" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 13218, …(5) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Register a student.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 13218, …(5) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 13218, …(5) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:9:143).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.368" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected 1 to deeply equal 3">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Register a student.]]>
+        <![CDATA[Test description: Response body values matches the request body info entered.]]>
+        <![CDATA[Error message: expected 1 to deeply equal 3.]]>
+        <![CDATA[Stacktrace: AssertionError: expected 1 to deeply equal 3
+   at Object.eval sandbox-script.js:10:143).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 3000ms" time="0.368" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Log in under a new registered admin" id="5ab88826-beaf-4b01-9cff-08e171984371" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.393">
+    <testcase name="Status code is 200" time="0.459" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.459" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.459" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Create a new category under an admin" id="1a6f6c39-ce05-46cd-a0c9-8f7eac2ad4b7" timestamp="2023-09-27T08:00:32.402Z" tests="7" failures="6" errors="0" time="0.069">
+    <testcase name="Status code is 200" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.063" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9044, …(1) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Create a new category under an admin.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 9044, …(1) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9044, …(1) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:4:145).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.063" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 9044, …(1) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Create a new category under an admin.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 9044, …(1) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 9044, …(1) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:5:145).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body values matches the request body info entered" time="0.063" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.063" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Log in under a new registered teacher" id="759c28c6-9270-4ddc-b108-a6ce6de98861" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.370">
+    <testcase name="Status code is 200" time="0.373" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.373" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.373" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Create a course under a teacher" id="e81ce772-b2a7-474a-bde3-3dea433a0b33" timestamp="2023-09-27T08:00:32.402Z" tests="10" failures="6" errors="0" time="0.083">
+    <testcase name="Status code is 200" time="0.080" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'id'" time="0.080" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'title'" time="0.080" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'categoryId'" time="0.080" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'description'" time="0.080" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'visible'" time="0.080" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'updatedAt'" time="0.080" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14375, …(4) } to have property 'updatedAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Create a course under a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'updatedAt'.]]>
+        <![CDATA[Error message: expected { id: 14375, …(4) } to have property 'updatedAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14375, …(4) } to have property 'updatedAt'
+   at Object.eval sandbox-script.js:7:147).]]>
+      </failure>
+    </testcase>
+    <testcase name="Check that response body contains 'createdAt'" time="0.080" classname="MakukhinViktor">
+      <failure type="AssertionFailure" message="expected { id: 14375, …(4) } to have property 'createdAt'">
+        <![CDATA[Failed 3 times.]]>
+        <![CDATA[Collection JSON ID: 641ac529-8674-497a-9729-49a74f3d013e.]]>
+        <![CDATA[Collection name: Makukhin_Viktor.]]>
+        <![CDATA[Request name: Lecture-3 / Scenario 3 Student can enroll in a course / Create a course under a teacher.]]>
+        <![CDATA[Test description: Check that response body contains 'createdAt'.]]>
+        <![CDATA[Error message: expected { id: 14375, …(4) } to have property 'createdAt'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected { id: 14375, …(4) } to have property 'createdAt'
+   at Object.eval sandbox-script.js:8:147).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response body title, description, visible, categoryId matches the ones entered in the request body" time="0.080" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.080" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Log in under a new registered student" id="f4606e47-b786-46d6-a70b-c6815ae04fb3" timestamp="2023-09-27T08:00:32.402Z" tests="3" failures="0" errors="0" time="0.357">
+    <testcase name="Status code is 200" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Check that response body contains 'accessToken' field" time="0.371" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.371" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Get a course list under a student" id="54d6416a-003e-45a9-916e-b75e64acf152" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="1.102">
+    <testcase name="Status code is 200" time="1.076" classname="MakukhinViktor"/>
+    <testcase name="Response contains a list of courses" time="1.076" classname="MakukhinViktor"/>
+    <testcase name="Each course in the response has a valid id, title, description, visible, categoryId, likes, and dislikes" time="1.076" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="1.076" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Enroll in a course under a student" id="fd20893b-b42d-46a4-baa9-7db4c7cc548e" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.071">
+    <testcase name="Status code is 200" time="0.068" classname="MakukhinViktor"/>
+    <testcase name="Response is an object with result property" time="0.068" classname="MakukhinViktor"/>
+    <testcase name="Successfull enrollment" time="0.068" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.068" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Smash a like button! under a student" id="8dbb315d-ceda-43f6-ac9e-d2f95d4d7f0b" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.068">
+    <testcase name="Response status code is 200" time="0.065" classname="MakukhinViktor"/>
+    <testcase name="Response is an object with result property" time="0.065" classname="MakukhinViktor"/>
+    <testcase name="Successfully like a course" time="0.065" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.065" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Lecture-3 / Scenario 3 Student can enroll in a course / Leave a course under a student" id="38bf4097-081f-4c9e-b252-7c7092a9fc22" timestamp="2023-09-27T08:00:32.402Z" tests="4" failures="0" errors="0" time="0.066">
+    <testcase name="Response status code is 200" time="0.066" classname="MakukhinViktor"/>
+    <testcase name="Response is an object with result property" time="0.066" classname="MakukhinViktor"/>
+    <testcase name="Successfully like a course" time="0.066" classname="MakukhinViktor"/>
+    <testcase name="Response time is less than 3000ms" time="0.066" classname="MakukhinViktor"/>
+  </testsuite>
+  <testsuite name="Check server status and unset env variable values" id="2f8c6892-9fa3-4cd1-9b39-3dde2abe9433" timestamp="2023-09-27T08:00:32.402Z" tests="2" failures="0" errors="0" time="0.047">
+    <testcase name="Status code is 200" time="0.047" classname="MakukhinViktor"/>
+    <testcase name="Check that status is OK" time="0.047" classname="MakukhinViktor"/>
+  </testsuite>
+</testsuites>
